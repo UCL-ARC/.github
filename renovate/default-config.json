@@ -12,7 +12,7 @@
       "description": "Automatically merge minor and patch-level updates",
       "automerge": true,
       "automergeType": "branch",
-      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "matchUpdateTypes": ["digest", "minor", "patch"],
       "matchManagers": ["github-actions", "pre-commit"]
     },
     {
