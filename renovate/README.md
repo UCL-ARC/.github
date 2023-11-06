@@ -52,8 +52,9 @@ following.
 
 ### Rulesets
 
-Alternatively, if using rulesets you can modify and import the following two
-rulesets.
+Alternatively, if you're using
+[rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)
+in your repo, you can modify and import the following two.
 
 The first one enables the `Restrict deletions`, `Block force pushes` settings,
 as well as requiring a series of named status checks to pass.
