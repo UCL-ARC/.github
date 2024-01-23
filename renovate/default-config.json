@@ -4,6 +4,7 @@
     "config:best-practices",
     "schedule:automergeWeekdays",
     "schedule:monthly",
+    ":automergeBranch",
     ":disableDependencyDashboard",
     ":enablePreCommit",
     ":label(renovate)",
@@ -14,7 +15,6 @@
     {
       "description": "Automatically merge, minor and patch-level updates",
       "automerge": true,
-      "automergeType": "branch",
       "matchManagers": ["github-actions", "pre-commit"],
       "matchUpdateTypes": ["digest", "minor", "patch"]
     },
