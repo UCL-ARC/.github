@@ -26,7 +26,11 @@
     {
       "description": "Combine action artefact updates together",
       "groupName": "artefacts",
-      "matchDepNames": ["actions/download-artifact", "actions/upload-artifact"]
+      "matchDepNames": [
+        "actions/download-artifact",
+        "actions/upload-artifact",
+        "actions/upload-pages-artifact"
+      ]
     },
     {
       "description": "Only allow major updates",
