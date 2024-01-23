@@ -12,11 +12,11 @@
   "commitMessageAction": "Renovate:",
   "packageRules": [
     {
-        "description": "Automatically merge, minor and patch-level updates",
-        "automerge": true,
-        "automergeType": "branch",
-        "matchManagers": ["github-actions", "pre-commit"],
-        "matchUpdateTypes": ["digest", "minor", "patch"]
+      "description": "Automatically merge, minor and patch-level updates",
+      "automerge": true,
+      "automergeType": "branch",
+      "matchManagers": ["github-actions", "pre-commit"],
+      "matchUpdateTypes": ["digest", "minor", "patch"]
     },
     {
       "description": "Shorten commit titles",
@@ -36,7 +36,10 @@
     },
     {
       "description": "Support loose versioning",
-      "matchDepNames": ["cmhughes/latexindent.pl", "shellcheck-py/shellcheck-py"],
+      "matchDepNames": [
+        "cmhughes/latexindent.pl",
+        "shellcheck-py/shellcheck-py"
+      ],
       "versioning": "loose"
     }
   ]
