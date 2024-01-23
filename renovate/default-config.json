@@ -27,6 +27,7 @@
       "description": "Combine action artefact updates together",
       "groupName": "artefacts",
       "matchDepNames": [
+        "actions/deploy-pages",
         "actions/download-artifact",
         "actions/upload-artifact",
         "actions/upload-pages-artifact"
