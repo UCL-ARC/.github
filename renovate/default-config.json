@@ -8,6 +8,7 @@
     ":disableDependencyDashboard",
     ":enablePreCommit",
     ":label(renovate)",
+    ":noUnscheduledUpdates",
     ":prHourlyLimitNone"
   ],
   "commitMessageAction": "Renovate:",
