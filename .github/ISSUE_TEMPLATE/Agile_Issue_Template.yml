@@ -19,7 +19,7 @@ body:
     id: documentation
     attributes:
       label: Documentation
-      description: Documantation to be completed along with this task
+      description: Documentation to be completed along with this task
       placeholder: Update README and user guide...
     validations:
       required: false
@@ -27,7 +27,7 @@ body:
     id: dependencies
     attributes:
       label: Dependencies
-      description: Enter the github issue number that the requirement is depenent on, in the form `#1`
+      description: Enter the github issue number that the requirement is dependent on, in the form `#1`
       placeholder: "#1"
     validations:
       required: false
