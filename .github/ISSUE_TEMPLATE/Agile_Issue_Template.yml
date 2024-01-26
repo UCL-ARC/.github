@@ -1,3 +1,5 @@
+name: Story/Task/Issue
+description: Create a new story or task
 body:
   - type: textarea
     id: definition_of_done
