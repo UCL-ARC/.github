@@ -33,3 +33,11 @@ body:
       placeholder: "#1"
     validations:
       required: false
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Comments
+      description: Any other considerations or comments
+      placeholder: More details or other comments...
+    validations:
+      required: false
