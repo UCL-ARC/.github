@@ -34,7 +34,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: dependencies
+    id: comments
     attributes:
       label: Comments
       description: Any other considerations or comments
