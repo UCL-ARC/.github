@@ -33,7 +33,7 @@ body:
     attributes:
       label: Dependencies
       description: >-
-        Enter the github issue number that the
+        Enter the github issue number(s) that the
         requirement is dependent on, in the form `#1`
       placeholder: "#1"
     validations:
