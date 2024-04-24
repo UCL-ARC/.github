@@ -1,0 +1,22 @@
+---
+name: Workstream
+description: Create a workstream or sub workstream
+body:
+  - type: textarea
+    id: workstream_description
+    attributes:
+      label: description
+      description: A short description of the workstream
+      placeholder: Description
+    validations:
+      required: false
+  - type: textarea
+    id: child_issues
+    attributes:
+      label: Child issues
+      description: What issues need to be completed for this issue to be done
+      placeholder: >-
+        The export data is available in the xxx format,
+        including age of the patient at the time of imaging...
+    validations:
+      required: false
