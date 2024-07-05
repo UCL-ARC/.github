@@ -8,8 +8,8 @@ body:
       label: Definition of Done / Acceptance Criteria
       description: What can someone see/do when this task is done.
       placeholder: >-
-        The export data is available in the xxx format,
-        including age of the patient at the time of imaging...
+        The export data is available in the xxx format, including age of the
+        patient at the time of imaging...
     validations:
       required: true
   - type: textarea
@@ -33,8 +33,8 @@ body:
     attributes:
       label: Dependencies
       description: >-
-        Enter the github issue number(s) that the
-        requirement is dependent on, in the form `#1`
+        Enter the github issue number(s) that the requirement is dependent on,
+        in the form `#1`
       placeholder: "#1"
     validations:
       required: false
