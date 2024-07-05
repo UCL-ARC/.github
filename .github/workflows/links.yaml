@@ -1,0 +1,21 @@
+---
+name: Links
+
+on:
+  push:
+    branches:
+      - main
+      - renovate/**
+  pull_request:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+
+      - uses: ./actions/links
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
