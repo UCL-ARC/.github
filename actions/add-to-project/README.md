@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: UCL-ARC/.github/actions/add-to-project@vx
         with:
-          app-id: ${{ secrets.APP_ID }}
-          app-pem: ${{ secrets.APP_PEM }}
+          app-id: ${{ secrets.PROJECT_BOARD_APP_ID }}
+          app-pem: ${{ secrets.PROJECT_BOARD_APP_PEM }}
           project-url: project_board_url
 ```
 
@@ -26,8 +26,8 @@ jobs:
     steps:
       - uses: UCL-ARC/.github/actions/add-to-project@vx
         with:
-          app-id: ${{ secrets.APP_ID }}
-          app-pem: ${{ secrets.APP_PEM }}
+          app-id: ${{ secrets.PROJECT_BOARD_APP_ID }}
+          app-pem: ${{ secrets.PROJECT_BOARD_APP_PEM }}
           label: label_name
           project-url: project_board_url
 ```
@@ -45,8 +45,8 @@ jobs:
     steps:
       - uses: UCL-ARC/.github/actions/add-to-project@vx
         with:
-          app-id: ${{ secrets.APP_ID }}
-          app-pem: ${{ secrets.APP_PEM }}
+          app-id: ${{ secrets.PROJECT_BOARD_APP_ID }}
+          app-pem: ${{ secrets.PROJECT_BOARD_APP_PEM }}
           label: label_name
           label-operator: AND
           project-url: project_board_url
