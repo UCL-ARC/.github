@@ -31,9 +31,7 @@ repos:
                 indentation: enable,
                 key-duplicates: enable,
                 key-ordering: disable,
-                line-length: {
-                  max: 160
-                },
+                line-length: enable,
                 new-line-at-end-of-file: enable,
                 new-lines: enable,
                 octal-values: enable,
@@ -47,6 +45,7 @@ repos:
                 }
               }
             }
+          - --strict
   - repo: https://github.com/crate-ci/typos
     rev: v1.22.9
     hooks:

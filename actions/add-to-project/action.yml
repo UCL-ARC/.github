@@ -28,12 +28,14 @@ runs:
   steps:
     - name: Generate token
       id: generate-token
+      # yamllint disable-line rule:line-length
       uses: actions/create-github-app-token@ad38cffc07bac6e3857755914c4c88bfd2db4da4 # v1
       with:
         app-id: ${{ inputs.app-id }}
         private-key: ${{ inputs.app-pem }}
 
     - name: Get project data
+      # yamllint disable-line rule:line-length
       uses: actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e # v1.0.2
       with:
         github-token: ${{ steps.generate-token.outputs.token }}
