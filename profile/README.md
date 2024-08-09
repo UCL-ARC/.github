@@ -10,3 +10,5 @@ missions:
   research groups in UCL and beyond.
 - We are a laboratory for research, teaching and innovation in compute, data and
   software intensive research methods.
+
+For more details, see our [website](https://www.ucl.ac.uk/arc).
