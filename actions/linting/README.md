@@ -13,3 +13,6 @@ jobs:
 ```
 
 where `x` is the `major` version of the action.
+
+To benefit from autofixing in CI, one must install the
+[GitHub App](https://github.com/apps/pre-commit-ci-lite/installations/new).
