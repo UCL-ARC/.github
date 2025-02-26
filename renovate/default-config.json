@@ -8,7 +8,8 @@
     ":disableDependencyDashboard",
     ":enablePreCommit",
     ":label(renovate)",
-    ":prHourlyLimitNone"
+    ":prHourlyLimitNone",
+    ":prNotPending"
   ],
   "commitMessageAction": "Renovate:",
   "packageRules": [
