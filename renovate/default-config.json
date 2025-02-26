@@ -43,7 +43,7 @@
       "description": "Only allow major updates",
       "enabled": false,
       "matchDepNames": ["renovatebot/pre-commit-hooks"],
-      "matchUpdateTypes": ["minor", "patch", "pin"]
+      "matchUpdateTypes": ["digest", "minor", "patch"]
     },
     {
       "description": "Support loose versioning",
