@@ -14,7 +14,7 @@
   "commitMessageAction": "Renovate:",
   "packageRules": [
     {
-      "description": "Automatically merge diest, minor and patch-level updates",
+      "description": "Automatically merge digest, minor and patch-level updates",
       "automerge": true,
       "matchManagers": [
         "dockerfile",
