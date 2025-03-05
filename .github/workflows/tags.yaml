@@ -22,14 +22,14 @@ jobs:
       contents: write
     steps:
       - name: Checkout source
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
 
       - name: Bump version and push tag
         id: bump-version
         # yamllint disable-line rule:line-length
-        uses: anothrNick/github-tag-action@777684df761b882a3f4f70db16ac70d8cc78d0ea # v1
+        uses: anothrNick/github-tag-action@f278d49d30cdd8775cc3e7dd00b5ee11686ee297 # v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: true
