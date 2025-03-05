@@ -3,6 +3,5 @@
   extends: [
     "github>UCL-ARC/.github//renovate/default-config.json",
     ":assignAndReview(paddyroddy)",
-    ":automergeAll",
   ],
 }
