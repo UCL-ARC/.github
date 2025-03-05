@@ -11,7 +11,7 @@ inputs:
     description: Application private key
     required: true
 
-  labeled:
+  label:
     description: Label to filter issues by
     default: ""
 
@@ -40,5 +40,5 @@ runs:
       with:
         github-token: ${{ steps.generate-token.outputs.token }}
         label-operator: ${{ inputs.label-operator }}
-        labeled: ${{ inputs.labeled }}
+        label: ${{ inputs.label }}
         project-url: ${{ inputs.project-url }}
