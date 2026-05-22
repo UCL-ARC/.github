@@ -11,6 +11,7 @@
     ":prNotPending"
   ],
   "commitMessageAction": "Renovate:",
+  "minimumReleaseAge": "7 days",
   "packageRules": [
     {
       "description": "Automatically merge, minor and patch-level updates",
@@ -51,6 +52,18 @@
         "shellcheck-py/shellcheck-py"
       ],
       "versioning": "loose"
+    },
+    {
+      "description": "Disable minimum release age checks for own GitHub Actions",
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["UCL-ARC/*"],
+      "minimumReleaseAge": null
+    },
+    {
+      "description": "Disable minimum release age checks for own pre-commit hooks",
+      "matchManagers": ["pre-commit"],
+      "matchPackageNames": ["UCL-ARC/*"],
+      "minimumReleaseAge": null
     }
   ]
 }
