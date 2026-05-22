@@ -58,12 +58,6 @@
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["UCL-ARC/*"],
       "minimumReleaseAge": null
-    },
-    {
-      "description": "Disable minimum release age checks for own pre-commit hooks",
-      "matchManagers": ["pre-commit"],
-      "matchPackageNames": ["UCL-ARC/*"],
-      "minimumReleaseAge": null
     }
   ]
 }
