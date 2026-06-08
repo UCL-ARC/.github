@@ -31,7 +31,9 @@ repos:
                 indentation: enable,
                 key-duplicates: enable,
                 key-ordering: disable,
-                line-length: enable,
+                line-length: {
+                  max: 93
+                },
                 new-line-at-end-of-file: enable,
                 new-lines: enable,
                 octal-values: enable,
